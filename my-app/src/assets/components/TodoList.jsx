@@ -1,11 +1,15 @@
-function TodoList() {   
+import TodoItem from './TodoItem.jsx';
+
+export default function TodoList() {   
     return (
         <div>
             <h2>Todo List</h2>
             <ul>
-                <li>Learn React</li>
-                <li>Build a Todo App</li>
-                <li>Deploy the App</li>
+                <TodoItem />
+                <TodoItem />
+                <TodoItem />
+                <TodoItem />
+                <TodoItem />
             </ul>
         </div>
     );

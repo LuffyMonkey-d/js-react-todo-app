@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './App.css'
-
+import Todo from './assets/components/Todo.jsx';
 export default function Example() {
   return (
     <>
